@@ -55,11 +55,6 @@ const routes: Routes = [
   },
   {
     exact: true,
-    path: "/villains",
-    component: lazy(() => import("./pages/VillainsPage")),
-  },
-  {
-    exact: true,
     path: "/heroes",
     component: lazy(() => import("./pages/HeroesPage")),
   },

@@ -7,5 +7,4 @@ export const api = axios.create({
 export const EndPoints = {
   heroes: "heroes",
   antiHeroes: "anti-heroes",
-  villains: "villains",
 };
