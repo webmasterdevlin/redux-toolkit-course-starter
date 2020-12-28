@@ -1,6 +1,6 @@
 import React, { Fragment, lazy, Suspense } from "react";
 import { Route, Switch } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+import HomePage from "pages/HomePage";
 
 type Routes = {
   exact?: boolean;
